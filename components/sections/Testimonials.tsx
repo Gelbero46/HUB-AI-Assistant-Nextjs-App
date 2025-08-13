@@ -148,8 +148,8 @@ const Testimonials = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-xl text-gray-300 max-w-3xl mx-auto"
           >
-            Entrepreneurs, freelancers, and small business owners love HUB. 
-            Here's what they have to say.
+            {`Entrepreneurs, freelancers, and small business owners love HUB. 
+            Here's what they have to say.`}
           </motion.p>
         </motion.div>
 
@@ -182,7 +182,7 @@ const Testimonials = () => {
 
                 {/* Text */}
                 <p className="text-2xl md:text-3xl font-medium text-white leading-relaxed mb-8">
-                  "{testimonials[currentTestimonial].text}"
+                  {`"${testimonials[currentTestimonial].text}"`}
                 </p>
 
                 {/* Author */}
@@ -272,7 +272,7 @@ const Testimonials = () => {
 
                   {/* Text */}
                   <p className="text-gray-300 leading-relaxed mb-6 group-hover:text-white transition-colors duration-300">
-                    "{testimonial.text}"
+                    {`"${testimonial.text}"`}
                   </p>
 
                   {/* Author */}

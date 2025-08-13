@@ -41,8 +41,8 @@ const CTA = () => {
               <span className="text-yellow-300">work for you</span>
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Join thousands of entrepreneurs and business owners who are saving hours daily 
-              with HUB's AI-powered phone assistant.
+              {`Join thousands of entrepreneurs and business owners who are saving hours daily 
+              with HUB's AI-powered phone assistant.`}
             </p>
             
             <a 

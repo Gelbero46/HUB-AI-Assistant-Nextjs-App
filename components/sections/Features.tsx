@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Phone, MessageSquare, Globe, Shield, Zap, Users } from 'lucide-react'
+import { Phone, MessageSquare } from 'lucide-react'
 
 const Features = () => {
   const features = [

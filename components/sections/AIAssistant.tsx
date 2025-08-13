@@ -1,4 +1,4 @@
-// src/components/sections/AIAssistant.tsx
+
 'use client'
 
 import { motion } from 'framer-motion'
@@ -167,9 +167,9 @@ const AIAssistant = () => {
                             <div className="bg-white rounded-lg p-3 border">
                               <div className="text-xs font-medium text-gray-900 mb-2">AI Summary</div>
                               <div className="text-xs text-gray-600 leading-relaxed">
-                                "Hi! Sarah from ABC Corp calling about the marketing proposal. 
+                                {`"Hi! Sarah from ABC Corp calling about the marketing proposal. 
                                 We're interested and would like to schedule a follow-up meeting 
-                                next week. Please call back when you get a chance."
+                                next week. Please call back when you get a chance."`}
                               </div>
                             </div>
                           </>
@@ -181,7 +181,7 @@ const AIAssistant = () => {
                             <div className="bg-green-50 rounded-lg p-3 border border-green-100">
                               <div className="flex items-center space-x-2 mb-2">
                                 <CheckSquare className="h-4 w-4 text-green-600" />
-                                <span className="text-xs font-medium text-green-600">Today's Tasks</span>
+                                <span className="text-xs font-medium text-green-600">{`Today's Tasks`}</span>
                               </div>
                             </div>
                             
