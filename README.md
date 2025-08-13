@@ -1,4 +1,4 @@
-# M1 Landing Page
+# HUB Landing Page
 
 A modern, responsive landing page built with Next.js 14, TypeScript, and Tailwind CSS.This website is featuring smooth animations, mobile responsiveness, and production-ready code.
 
@@ -16,7 +16,7 @@ A modern, responsive landing page built with Next.js 14, TypeScript, and Tailwin
 1. Clone the repository:
 ```bash
 git clone [repository-url]
-cd m1-landing-page
+cd HUB-landing-page
 ```
 
 2. Install dependencies:
