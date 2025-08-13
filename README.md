@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# M1 Landing Page
 
-## Getting Started
+A modern, responsive landing page built with Next.js 14, TypeScript, and Tailwind CSS.This website is featuring smooth animations, mobile responsiveness, and production-ready code.
 
-First, run the development server:
+## 🚀 Features
 
+- **Modern Tech Stack**: Next.js 14 with App Router, TypeScript, Tailwind CSS
+- **Responsive Design**: Mobile-first approach with responsive layouts
+- **Smooth Animations**: Framer Motion for engaging user interactions  
+- **Accessible Components**: Built with Headless UI for accessibility
+- **SEO Optimized**: Proper meta tags and semantic HTML structure
+- **Performance Focused**: Optimized images and lazy loading
+
+## 📦 Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [repository-url]
+cd m1-landing-page
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **UI Components**: Headless UI
+- **Icons**: Lucide React
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/
+│   ├── layout.tsx          # Root layout
+│   ├── page.tsx           # Homepage
+│   └── globals.css        # Global styles
+├── components/
+│   ├── layout/
+│   │   ├── Navbar.tsx     # Navigation header
+│   │   └── Footer.tsx     # Footer component
+│   └── sections/
+│       ├── Hero.tsx       # Hero section
+│       ├── Features.tsx   # Features section
+│       ├── AIAssistant.tsx # AI features
+│       ├── HowItWorks.tsx # Process steps
+│       ├── Integrations.tsx # Integrations
+│       ├── Testimonials.tsx # User reviews
+│       ├── FAQ.tsx        # FAQ section
+        |── Pricing         # Pricing section
+│       └── CTA.tsx        # Call-to-action
+```
 
-## Deploy on Vercel
+## 🎨 Customization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The website is fully customizable through:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Colors**: Update the color palette in `global.css` file
+- **Content**: Modify text and data in individual component files
+- **Animations**: Adjust Framer Motion configurations
+- **Layout**: Update responsive breakpoints and layouts
+
+## 🔧 Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 📱 Mobile Ready
+
+The website is fully responsive and optimized for:
+- Mobile devices (320px+)
+- Tablets (768px+)  
+- Desktop (1024px+)
+- Large screens (1280px+)
+
+## ⚡ Performance
+
+- Lazy loading of images and components
+- Optimized bundle size with tree shaking
+- Efficient re-renders with React optimizations
+- Fast page loads with Next.js optimizations
+
+## 🚀 Deployment
+
+Ready to deploy on:
+- Vercel (recommended)
+- Netlify
+- AWS Amplify
+- Any Node.js hosting provider
+
+## 📄 License
