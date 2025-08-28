@@ -52,7 +52,6 @@ const CTA = () => {
              
             >
               <Button variant="secondary" size='lg'>Try for Free</Button>
-              <ArrowRight className="h-5 w-5" />
             </a>
 
             <p className="text-gray-300 mt-4 text-sm">
